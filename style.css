@@ -79,3 +79,13 @@ body {
 .header__button:hover {
   background-color: #5850dd;
 }
+
+.main {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 520px;
+}
+
+.main__todo {
+  
+}
