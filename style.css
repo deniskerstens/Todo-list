@@ -3,4 +3,79 @@
 body {
   font-family: "Kanit", sans-serif;
   background-color: #f7f7f7;
+  color: #252525;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  min-height: 90vh;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header__title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 18px;
+}
+
+.header__row {
+  display: flex;
+  gap: 16px;
+}
+
+.header__search {
+  width: 100%;
+  display: flex;
+  border: 1px solid #6c63ff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.header__search input {
+  width: 100%;
+  background: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #6c63ff;
+}
+
+.header__search input::placeholder {
+  color: #c3c1e5;
+}
+
+.header__select {
+  padding: 10px;
+  background-color: #6c63ff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.header__button {
+  min-width: 38px;
+  min-height: 38px;
+  background-image: url(./images/LightSwitch.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  transition: 0.3s;
+}
+
+.header__button:hover {
+  background-color: #5850dd;
 }
